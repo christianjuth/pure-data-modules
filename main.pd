@@ -1,0 +1,11 @@
+#N canvas 539 546 827 855 12;
+#X obj 74 561 dac~;
+#X obj 282 435 modules/oscilloscope;
+#X obj 61 231 modules/mixer4;
+#X obj 58 41 modules/oscillator;
+#X floatatom 59 15 5 0 0 0 - - -;
+#X obj 200 200 basic-osc 1;
+#X connect 2 0 1 0;
+#X connect 2 0 0 0;
+#X connect 3 0 2 0;
+#X connect 4 0 3 0;
