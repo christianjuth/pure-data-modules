@@ -1,0 +1,15 @@
+#N canvas 296 356 941 522 12;
+#X obj 121 3 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X obj 27 60 delay 1000;
+#X obj 6 21 hsl 128 15 60 5000 1 1 empty empty empty -2 -8 0 10 -204800
+-1 -1 12700 1;
+#X obj 159 10 loadbang;
+#X obj 27 83 outlet;
+#X text 2 2 Clock time;
+#X connect 0 0 1 0;
+#X connect 1 0 0 0;
+#X connect 1 0 4 0;
+#X connect 2 0 1 1;
+#X connect 3 0 0 0;
+#X coords 0 -1 1 1 139 39 2 0 0;
